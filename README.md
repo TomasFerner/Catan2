@@ -67,7 +67,18 @@ Sigue estos pasos para ejecutar la aplicación en tu computadora localmente:
 4. **Abrir en el navegador:**
    Navega a [http://localhost:3000](http://localhost:3000) para ver y probar la aplicación interactiva.
 
+### ⚡ Acceso Rápido en Windows (Doble Clic)
+Para tu comodidad, he creado un script ejecutable en la raíz del proyecto llamado `iniciar_servidor.bat`. 
+Al hacer **doble clic** sobre él, hará automáticamente lo siguiente:
+1. **Verificar que Node.js** esté instalado en la PC.
+2. **Instalar las dependencias** (`npm install`) de forma automática si no encuentra la carpeta `node_modules`.
+3. **Preguntarte el modo de ejecución:**
+   - **Opción 1:** Modo local (solo accesible desde tu PC).
+   - **Opción 2:** Modo compartido (permite que celulares, tablets u otras PCs en tu red Wi-Fi se conecten a la partida).
+4. **Abrir automáticamente tu navegador** en la dirección correcta y levantar el servidor.
+
 ---
+
 
 ## 💻 Instalación y Uso en Otra PC
 
