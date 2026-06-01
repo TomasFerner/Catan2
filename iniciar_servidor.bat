@@ -1,10 +1,10 @@
 @echo off
-title Catan Mod - Servidor de Eventos
+title Catan Mod - Servidor Local
 chcp 65001 > nul
 cls
 
 echo =================================================================
-echo   🎲  CATÁN MOD - SERVIDOR DE ACOMPAÑAMIENTO  🏔️ 📜
+echo   🎲  CATÁN MOD - INICIANDO SERVIDOR LOCAL  🏔️ 📜
 echo =================================================================
 echo.
 
@@ -33,30 +33,17 @@ if not exist node_modules (
     echo.
 )
 
-echo Selecciona cómo deseas iniciar el servidor:
-echo ----------------------------------------------------
-echo [1] Modo local (Solo accesible desde esta PC)
-echo [2] Modo compartido (Permite que jueguen celulares/otras PCs en tu Wi-Fi)
-echo ----------------------------------------------------
+echo [INFO] Iniciando servidor en http://localhost:3000...
+echo Para detener el servidor, cierra esta ventana o presiona Ctrl+C.
 echo.
-set /p opcion="Selecciona una opción (1 o 2) y presiona Enter [Por defecto: 1]: "
 
-if "%opcion%"=="2" (
-    echo.
-    echo [INFO] Iniciando en Modo Compartido (Red Local)...
-    echo.
-    echo TIP: Busca la línea de "- Network:" más abajo para saber a qué dirección
-    echo      conectar los celulares y tablets.
-    echo.
-    :: Abrir localhost:3000 para la PC local
-    start http://localhost:3000
-    call npm run dev -- -H 0.0.0.0
-) else (
-    echo.
-    echo [INFO] Iniciando en Modo Local (Solo esta PC)...
-    echo.
-    start http://localhost:3000
-    call npm run dev
-)
+:: Abrir el navegador con el juego automáticamente
+start http://localhost:3000
 
+:: Ejecutar el servidor de Next.js
+npm run dev
+
+:: Evitar que la consola se cierre de golpe si ocurre algún error
+echo.
+echo El servidor se ha detenido.
 pause
