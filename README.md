@@ -130,7 +130,23 @@ Para habilitar esto:
    - Abre el navegador en la otra PC o celular y escribe la dirección IP de tu PC principal seguida del puerto `:3000`. Por ejemplo: `http://192.168.1.15:3000` (reemplaza `192.168.1.15` por tu IP real).
    - ¡Listo! Todos los jugadores podrán interactuar con el selector de eventos y llevar el temporizador de sus turnos.
 
+### 🔄 ¿Cómo actualizar a la última versión? (Para quienes ya lo tienen instalado)
+
+Si tú o algún amigo ya clonaron el proyecto anteriormente y quieren descargar los nuevos cambios (como el script de inicio rápido `iniciar_servidor.bat` o futuras mejoras), solo deben seguir estos pasos:
+
+1. **Obtener la última versión desde GitHub:**
+   Abre la terminal dentro de la carpeta del proyecto (`Catan2`) y ejecuta:
+   ```bash
+   git pull
+   ```
+2. **Actualizar dependencias (opcional pero recomendado):**
+   ```bash
+   npm install
+   ```
+   *¡Y listo! Al hacer esto, ya tendrán todos los nuevos scripts, mejoras y actualizaciones en su computadora.*
+
 ---
+
 
 
 ## 🌐 Cómo hacer Deploy (Publicar en la Web)
