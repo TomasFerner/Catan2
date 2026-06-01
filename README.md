@@ -17,15 +17,15 @@ Modificaciones climatológicas que alteran la producción de los recursos en la 
 5. **Lobos 🐺**: Reduce en 1 la producción de ovejas (si se farmea más de 1 por jugador) pero se farmea 1 más de madera por cada casilla.
 6. **Calentamiento Global ☀️**: El barro dificulta la minería: reduce en 1 la producción de piedra y ladrillo. A cambio, los prados florecen: se obtiene 1 más de oveja por casilla.
 
-### 📜 Eventos Diplomáticos (Dado de 7)
+### 📜 Eventos Diplomáticos (Dado de 6)
 Reglas socio-políticas que influyen en el comercio y comportamiento de los jugadores:
 1. **Capitalismo 💰**: El comercio con el banco se vuelve 2:1 para cada jugador durante esta ronda.
 2. **Socialismo 🤝**: Cada jugador puede agarrar 1 material del banco a su elección en esta ronda.
 3. **Comunismo ⚒️**: Por cada cabildo (ciudad) que tenga un jugador, se reduce en 1 la cantidad máxima de cartas que puede tener en mano para que el ladrón no le robe.
-4. **Congreso 🏛️**: Se vota qué recurso se farmea doble en la ronda. En caso de empate se decide con un dado (par o impar).
-5. **Liberalismo 🗽**: Todos los jugadores pueden comerciar con todos en cualquier momento durante esta ronda.
-6. **Fascismo 🚫**: El jugador con más puntos (o empatado en el primer puesto) no puede comerciar en esta ronda.
-7. **Teocracia 🙏**: Jesús pacifica al ladrón y lo convierte en un trabajador: consigues el doble de recursos de esa casilla durante la ronda.
+4. **Liberalismo 🗽**: Todos los jugadores pueden comerciar con todos en cualquier momento durante esta ronda.
+5. **Fascismo 🚫**: El jugador con más puntos (o empatado en el primer puesto) no puede comerciar en esta ronda.
+6. **Teocracia 🙏**: Jesús pacifica al ladrón y lo convierte en un trabajador: consigues el doble de recursos de esa casilla durante la ronda.
+
 
 ### ⏱️ Temporizador de Turnos
 Evita turnos interminables y mantén el ritmo de juego activo. Configura alarmas visuales y lleva el control del tiempo restante para cada jugador.

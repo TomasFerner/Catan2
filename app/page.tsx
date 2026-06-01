@@ -55,26 +55,22 @@ const diplomaticEvents = {
         accent: "#991b1b"
     },
     4: {
-        title: "Congreso",
-        description: "Se vota qué recurso se farmea doble en la ronda. En caso de empate se decide con un dado (par o impar).",
-        accent: "#d8b4fe"
-    },
-    5: {
         title: "Liberalismo",
         description: "Todos los jugadores pueden comerciar con todos en cualquier momento durante esta ronda.",
         accent: "#60a5fa"
     },
-    6: {
+    5: {
         title: "Fascismo",
         description: "El jugador con más puntos (o empatado en primero) no puede tradear esta ronda.",
         accent: "#52525b"
     },
-    7: {
+    6: {
         title: "Teocracia",
         description: "Jesús pacifica al ladrón y lo convierte en un trabajador: consigues el doble de recursos de esa casilla durante la ronda.",
         accent: "#fef08a"
     }
 };
+
 
 export default function CatanMod() {
     const [currentClimatic, setCurrentClimatic] = useState<number | null>(null);

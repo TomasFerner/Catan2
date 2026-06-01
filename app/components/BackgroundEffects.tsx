@@ -18,11 +18,11 @@ const diplomaticBackgrounds = {
     1: "/capitalismo.png",
     2: "/socialismo.png",
     3: "/comunismo.png",
-    4: "/congreso.png",
-    5: "/liberalismo.png",
-    6: "/facismo.png",
-    7: "/teocracy.png"
+    4: "/liberalismo.png",
+    5: "/facismo.png",
+    6: "/teocracy.png"
 };
+
 
 // Generador de partículas para diferentes efectos
 const Particles = ({ count, type }: { count: number, type: string }) => {
